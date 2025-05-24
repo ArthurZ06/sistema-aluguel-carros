@@ -1,0 +1,59 @@
+# === Python ===
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# === Ambientes Virtuais ===
+venv/
+.venv/
+
+# === Arquivos de Banco de Dados ===
+*.db
+*.sqlite3
+
+# === VSCode ===
+.vscode/
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Arquivos Temporários e Backup ===
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# === Dados Sensíveis ===
+.env
+*.key
+*.pem
+
+# === OneDrive / Explorador de Arquivos ===
+*.lnk
+
+# === Jupyter Notebook Checkpoints (se usar) ===
+.ipynb_checkpoints/
+
+# === PyInstaller ===
+*.spec
+
+# === Test coverage reports ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+nosetests.xml
+pytest_cache/
+
+# === IDEs ===
+.idea/
+*.iml

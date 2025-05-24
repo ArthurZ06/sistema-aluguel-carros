@@ -1,0 +1,11 @@
+Copyright (c) 2025 Arthur Nicolas Silva De Lima
+
+All rights reserved.
+
+This software is proprietary and confidential.  
+Unauthorized copying, distribution, modification, or use of this code, via any medium, is strictly prohibited without explicit written permission from the author.
+
+This code is intended for private and commercial use only by Arthur.  
+No rights are granted to third parties to redistribute or reuse this code in any form.
+
+For licensing inquiries or permission requests, please contact the author.
