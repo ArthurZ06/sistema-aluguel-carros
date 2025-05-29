@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from models import db, Veiculo
 
@@ -10,7 +10,7 @@ db.init_app(app)
 
 @app.route('/')
 def home():
-    return "Olá, mundo! Esta é a página inicial."
+    return render_template('index.html')
 
 @app.route('/veiculos', methods=['GET'])
 def listar_veiculos():
